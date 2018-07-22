@@ -1,0 +1,43 @@
+/*!
+ * Start Bootstrap - Blog Post (https://startbootstrap.com/template-overviews/blog-post)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
+ */
+
+.btn-group {
+padding-bottom: 10px;
+
+}
+
+.btn-group button {
+    background-color: #cbcbd6; /* Green background */
+    border: 1px solid #3c3c3d; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #85858c;
+}
+
+button.home-button {
+    background-color: #a6a6ea;
+}
+
+.btn-group button.home-button button:hover {
+    background-color: #fff;
+}
