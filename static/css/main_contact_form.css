@@ -298,7 +298,7 @@ textarea.input100 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: -4px;
+  margin-top: 50px;
 }
 
 .contact100-form-btn {
@@ -397,6 +397,14 @@ textarea.input100 {
   position: relative;
 }
 
+.focus-input100 {
+  box-shadow: 0 5px 20px 0px rgba(36, 86, 31, 0.1);
+  -moz-box-shadow: 0 5px 20px 0px rgba(36, 86, 31, 0.1);
+  -webkit-box-shadow: 0 5px 20px 0px rgba(36, 86, 31, 0.1);
+  -o-box-shadow: 0 5px 20px 0px rgba(36, 86, 31, 0.1);
+  -ms-box-shadow: 0 5px 20px 0px rgba(36, 86, 31, 0.1);
+}
+
 .alert-validate .focus-input100 {
   box-shadow: 0 5px 20px 0px rgba(36, 86, 31, 0.1);
   -moz-box-shadow: 0 5px 20px 0px rgba(36, 86, 31, 0.1);
@@ -446,8 +454,8 @@ textarea.input100 {
   content: "\f26b";
   font-family: Material-Design-Iconic-Font;
   font-size: 18px;
-  /*color: #00ad5ff;*/
-  color: #fff;
+  color: #00ad5ff;
+  /*color: #fff;*/
 
   display: -webkit-box;
   display: -webkit-flex;
